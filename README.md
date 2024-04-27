@@ -14,7 +14,7 @@ gcc crypt.c -o crypt
 
 The format is 
 ```text 
-./crypt --xrot or --xplus <encrypt or decrypt> <password> <input file> <output file>
+./crypt  <--encrypt or --decrypt> <--xrot or --xplus> <password> <input file> <output file>
 ```
 Example: To  encrypt a message:
 ```text
